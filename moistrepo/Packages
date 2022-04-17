@@ -1,0 +1,74 @@
+Package: me.nepeta.relocatereborn
+Name: relocate yo ass
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: mommy no track
+Maintainer: trop
+Author: Nepeta
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader, ws.hbang.common
+Filename: ./debs/me.nepeta.relocatereborn_1.0.1_iphoneos-arm.deb
+Size: 70024
+MD5sum: d072cf45d0f1f3be81b841a877d880d5
+SHA1: 110b2d8d7cc38cb5202b6d62ce394d2372be9009
+SHA256: 71567fb157b13d3ce7de9ae51dd43949f7336f0c669f6341cc984e8cad948ab8
+
+Package: com.trop.trackpad
+Name: trackpad
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: trackpad funny
+Maintainer: trop
+Author: trop
+Section: Themes
+Depends: com.spark.snowboard
+Filename: ./debs/com.trop.trackpad-0.0.1.deb
+Size: 21936
+MD5sum: 3f79773478206b5d05061f5a2f4f9a8b
+SHA1: a641392cfe1369564de4877ae8d46c9ca5c85802
+SHA256: 4eb189799d3081cc8c009112d1e0eab52c88c96bf8669fe7511313e35529f2f2
+
+Package: com.trop.trackpad
+Name: trackpad
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: trackpad funny
+Maintainer: trop
+Author: trop
+Section: Themes
+Depends: com.spark.snowboard
+Filename: ./debs/com.trop.trackpad-0.0.2.deb
+Size: 18844
+MD5sum: 8ee4014358765b403a6eb239b1474b51
+SHA1: 16bdfc6a714a2557bf5338f095eb5151ff5acb86
+SHA256: 96b4a7be3c0c1b45abe9c55cde67d75fb50538a64b02a770477d0813f9aacafa
+
+Package: com.trop.trackpad
+Name: trackpad
+Version: 0.0.3
+Architecture: iphoneos-arm
+Description: trackpad funny
+Maintainer: trop
+Author: trop
+Section: Themes
+Depends: com.spark.snowboard
+Filename: ./debs/com.trop.trackpad-0.0.3.deb
+Size: 46432
+MD5sum: 6422e3e857af8f63a3841560275d0547
+SHA1: d734f879decef56288eea330d6e65dc4a309d257
+SHA256: ce3aa3ea1b1235536cd218c2287876ecd45e2b6fe7f0cab8cf06debd42028be4
+
+Package: com.trop.trackpad
+Name: trackpad
+Version: 0.0.4
+Architecture: iphoneos-arm
+Description: trackpad funny
+Maintainer: trop
+Author: trop
+Section: Themes
+Depends: com.spark.snowboard
+Filename: ./debs/com.trop.trackpad-0.0.4.deb
+Size: 125240
+MD5sum: ac2b3621753006276ce34865eac3854e
+SHA1: 0c59ae3293719ae33100fe191e7f40bbcd7f1ee0
+SHA256: e9e039309fde38633351418fe382147b4b82bcd3b1a6fa1e914bb849b67793fe
