@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+    <body> <script src="uni.js"></script>
+        <div class="container-sm-">
+        <h3> <span style="color:blue">arrow keys to start</span> <br> <br>
+        <br> <span style="color:orange">press space to pause</span> <br> <br>
+        <br> <span style="color:red">press r to restart</span> <br> <br>
+
+</h3>
+<h4>
+
+Random Colors: <input type="checkbox" id="cb1" onclick="cb1()">
+<br>
+Wall Collision: <input type="checkbox" id="cb2" onclick="cb2()" checked="checked">
+<br>
+Snake Collision: <input type="checkbox" id="cb3" onclick="cb3()" checked="checked">
+</h4>
+</div>
+
+<div class="container-sm-">
+<label for="slider1" class="form-label">Speed:</label>
+<input type="range" class="form-range" min="1" max="60" step="0.1" value="18.5" id="slider1" onchange="updateSpeed(this.value);">
+
+<br>
+<label for="slider2" class="form-label">Tile Size:</label>
+<input type="range" class="form-range" min="1" max="30" step="0.1" value="13.5" id="slider1" onchange="updateCellSize(this.value);">
+
+<br>
+<label for="slider3" class="form-label"># of Rows (height):</label>
+<input type="range" class="form-range" min="10" max="100" step="1" value="48" id="slider3" onchange="updateRows(this.value);">
+<br>
+
+<label for="slider4" class="form-label"># of Columns (width):</label>
+<input type="range" class="form-range" min="10" max="100" step="1" value="58" id="slider4" onchange="updateCols(this.value);">
+<br>
+
+<label for="slider5" class="form-label">growth per apple</label>
+<input type="number" class="form-range" value="8" id="slider5" onchange="updateGrowth(this.value);">
+<br>
+<br>
+Before raising tile size, lower rows/cols **
+<h2>
+<div class="dropdown">
+  <button class="dropbtn">Presets</button>
+  <div class="dropdown-content">
+    <a href="sober.html">sober</a>
+    <a href="cocaine.html">cocaine</a>
+    <a href="acid.html">acid</a>
+    <a href="index.html">custom</a>
+  </div>
+</div>
+
+</h2>    
+</div>
+</body>
+</html>
