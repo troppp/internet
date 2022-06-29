@@ -82,6 +82,7 @@ Maintainer: trop
 Author: trop
 Section: Themes
 Depends: com.spark.snowboard
+Icon: ./icons/trackpad-icon.jpeg
 Filename: ./debs/com.trop.trackpad-0.0.5.deb
 Size: 201504
 MD5sum: f58a530eca310f30b6493c443c179391
