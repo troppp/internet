@@ -84,7 +84,7 @@ Section: Themes
 Depends: com.spark.snowboard
 Icon: ./icons/trackpad-icon.jpeg
 Filename: ./debs/com.trop.trackpad-0.0.5.deb
-Size: 201504
-MD5sum: f58a530eca310f30b6493c443c179391
-SHA1: bbedb0dc85b4426f6beb6532cc04ee429f3ee1f8
-SHA256: e72ca2c2de6bd75a879f53d5bf6c1388fb9c1310c868f572b012eb6bc64006e2
+Size: 124924
+MD5sum: db073100e6b515690178e2ae6ce9265a
+SHA1: e2aed15871ec74972ee4806e7f9c0cea908367fb
+SHA256: 45be41c3d7acce296ed612853f3c7ef4d6f705c926294542165885b85834af53
