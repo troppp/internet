@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inner-headings {
+  height: 53px;
+  line-height: 51px;
+  overflow: hidden;
+}
+
+.inner-headings span {
+  position: relative;
+  animation: animation 10s ease infinite;
+}
+
+@keyframes animation {
+  0%,
+  100% {
+    top: 0;
+  }
+  20% {
+    top: 0;
+  }
+  25% {
+    top: -54px;
+  }
+  45% {
+    top: -54px;
+  }
+  50% {
+    top: -102px;
+  }
+  70% {
+    top: -102px;
+  }
+  75% {
+    top: -152px;
+  }
+  95% {
+    top: -152px;
+  }
+}
